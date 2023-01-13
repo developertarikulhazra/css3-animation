@@ -6,11 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Overflow</title>
     <style>
+      body {
+        display: flex;
+        margin: 0 auto;
+        flex-wrap: wrap;
+      }
+      .mini-mini {
+        width: 150px;
+        border: 3px solid indianred;
+        margin: 20px;
+        overflow: hidden;
+      }
+      .short-text {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
       .mega-box {
         width: 500px;
         height: 400px;
         border: 5px solid blue;
         overflow: scroll;
+        overflow-x: hidden;
       }
       .mango-people {
         width: 600px;
@@ -22,6 +39,73 @@
   </head>
   <body>
     <h1>I am so happy</h1>
+    <div class="mini-mini">
+      <p
+        class="short-text"
+        title="if you want to my money, send me bkash first This is a short text."
+      >
+        if you want to my money, send me bkash first This is a short text.
+      </p>
+    </div>
+    <div class="mega-box">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias optio
+        veniam quidem quos quae ex perferendis unde a, fuga, repudiandae, iure
+        iusto excepturi error nam sed minima consequatur asperiores ab hic
+        possimus corporis odit. Quaerat aspernatur fugiat at, totam possimus
+        deleniti expedita maxime cum alias facilis libero esse recusandae vero,
+        mollitia animi nobis temporibus non accusamus dolor necessitatibus
+        maiores quisquam voluptates rem? Ipsam, laboriosam sed cupiditate iure
+        mollitia doloribus inventore vitae obcaecati vero excepturi voluptates
+        corrupti rerum perferendis quos explicabo saepe natus nisi. Quia quod
+        nostrum sequi doloremque expedita delectus laborum voluptate blanditiis.
+        Autem delectus quas et itaque obcaecati illum doloribus aut ratione ut
+        ipsum, quia exercitationem deleniti sunt distinctio quidem culpa tenetur
+        recusandae minima vitae consequuntur. Impedit, nulla suscipit. Accusamus
+        delectus, quas fugiat nulla inventore perferendis maxime voluptatem ea
+        nesciunt quibusdam minima illo facilis illum provident rem ut nisi
+        voluptas dignissimos sequi? Doloremque itaque sunt alias. Perspiciatis
+        ipsa dolore magni praesentium fuga voluptatum, fugit dicta, esse maiores
+        cumque possimus consequuntur, ipsam cum ullam voluptatibus a explicabo
+        itaque culpa eos ad neque consequatur sunt nulla. Adipisci, quasi iste!
+        Tempora repudiandae dignissimos voluptatibus nulla laborum ipsam veniam.
+        Inventore, laboriosam delectus corrupti culpa nisi minus architecto eos
+        quasi, tenetur sequi quibusdam dicta ipsum accusantium eaque? Officia
+        dolor vel, atque nihil tenetur ab aperiam similique, consectetur, sint
+        necessitatibus accusantium cupiditate dolorem odit earum. Id deleniti
+        quaerat, aut a in dolorum temporibus ut totam suscipit? Sapiente sint
+        veritatis labore fugiat dolores quidem ipsa ea? Perspiciatis facere
+        ratione reprehenderit totam illo aut consectetur officiis veniam harum
+        labore accusamus voluptatum molestiae error consequatur corporis velit
+        itaque temporibus exercitationem, unde odio doloribus deserunt suscipit?
+        Consequatur illo dolorum accusantium ea placeat necessitatibus
+        recusandae suscipit tenetur fuga quos libero, maiores, expedita, nisi
+        beatae tempora doloribus ad voluptates labore culpa amet? Facilis, sed
+        labore? Tempora animi ipsum obcaecati ipsam recusandae doloremque, optio
+        odio error et esse impedit sint quae necessitatibus minima repellendus
+        pariatur? Dignissimos, tenetur officiis dolores totam porro culpa
+        possimus dolore quo pariatur eveniet. Accusantium minima, error
+        possimus, facere ratione deleniti perferendis tenetur quasi beatae unde
+        vitae totam quia voluptates similique? Quaerat, cupiditate! Facere
+        voluptatem saepe, vero fugiat mollitia corrupti placeat quo,
+        consectetur, asperiores dolor hic laudantium veniam eius dignissimos?
+        Unde tempore ratione fugiat totam optio, illum aperiam soluta obcaecati
+        officiis, voluptas ex, asperiores sint veritatis laborum ullam et?
+        Recusandae suscipit officiis ut a perspiciatis modi accusamus quisquam
+        eveniet, inventore eaque est reprehenderit rerum itaque, nostrum nihil.
+        Accusantium dolores non dolorem vel perspiciatis ipsum possimus omnis
+        quasi eaque adipisci, facilis dignissimos fuga sed dolor nesciunt alias
+        officia optio! Debitis cupiditate vero autem ipsum aliquid, velit fuga
+        aperiam sint sapiente quam neque illo magnam perferendis praesentium
+        repellendus impedit est expedita quo veritatis suscipit iste omnis eos
+        fugiat. Reprehenderit itaque mollitia, voluptate sunt dolor cum
+        repellendus nobis possimus. Quo magni tempore, a animi omnis adipisci
+        quidem ipsa aliquid! Explicabo qui quasi velit porro ipsum accusantium
+        maiores aperiam debitis voluptatem dolorem, vitae iste delectus
+        accusamus veritatis minus rerum commodi nostrum cum nisi. Odit
+        consequuntur itaque est incidunt dolorum maiores vero neque dolore?
+      </p>
+    </div>
     <div class="mega-box">
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias optio
